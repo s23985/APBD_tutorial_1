@@ -4,7 +4,12 @@ public class CalculateAverage
 {
     public static decimal Calculate(int[] array)
     {
-        var sum = (decimal)array.Sum(x => x);
+        decimal sum = 0;
+        foreach (var i in array)
+        {
+            sum += i;
+        }
+
         return sum / array.Length;
     }
 }
