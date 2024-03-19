@@ -14,5 +14,7 @@ public class Program
         var arr = new[] {1, 2, 3, 4, 5, 6};
         
         Console.WriteLine(CalculateAverage.Calculate(arr));
+        
+        Console.WriteLine(CalculateMax.Calculate(arr));
     }
 }
