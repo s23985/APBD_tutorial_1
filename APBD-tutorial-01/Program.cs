@@ -6,6 +6,9 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        for (var i = 0; i < 10; i++)
+        {
+            Console.WriteLine("Hello, World!");
+        }
     }
 }
