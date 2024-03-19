@@ -2,9 +2,9 @@
 
 public class CalculateAverage
 {
-    public static decimal Calculate(int[] array)
+    public static decimal Calculate(int[] arr)
     {
-        var sum = (decimal)array.Sum(x => x);
-        return sum / array.Length;
+        var sum = (decimal)arr.Sum(x => x);
+        return sum / arr.Length;
     }
 }
